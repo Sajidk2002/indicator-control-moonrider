@@ -1,10 +1,10 @@
-# 🚗 Moonrider Indicator Control System (Wokwi + ATmega328P)
+#  Moonrider Indicator Control System (Wokwi + ATmega328P)
 
 This project implements an **automotive indicator control system** using the ATmega328P microcontroller on Wokwi. The system handles **Left**, **Right**, and **Hazard** light indicators as per embedded software requirements and simulates real-world logic with GPIO, PWM, UART, and button control.
 
 ---
 
-## 📋 Assignment Objectives
+##  Assignment Objectives
 
 - Develop C-based base software for indicator control
 - Simulate with ATmega328P on Wokwi
@@ -16,7 +16,7 @@ This project implements an **automotive indicator control system** using the ATm
 
 ---
 
-## 🛠️ Hardware Simulation Setup (Wokwi)
+## 🛠 Hardware Simulation Setup (Wokwi)
 
 | Component       | Pin            |
 |----------------|----------------|
@@ -28,14 +28,14 @@ This project implements an **automotive indicator control system** using the ATm
 
 ---
 
-## 🧠 Core Features
+##  Core Features
 
-- ⏱ **1-sec Button Hold**: Detects long-press using scheduler and state tracking
-- 🔁 **300ms LED Blink**: Non-blocking blink using timer logic
-- 🔄 **Mode Switching**: Switch between left/right/hazard modes seamlessly
-- 🔧 **Hazard Mode**: Activated by pressing both buttons together for 1 sec
-- 🔕 **Debounce Logic**: Avoids retriggering while holding
-- 📤 **UART Logging**: Publishes state changes via Serial Monitor
+-  **1-sec Button Hold**: Detects long-press using scheduler and state tracking
+-  **300ms LED Blink**: Non-blocking blink using timer logic
+-  **Mode Switching**: Switch between left/right/hazard modes seamlessly
+-  **Hazard Mode**: Activated by pressing both buttons together for 1 sec
+-  **Debounce Logic**: Avoids retriggering while holding
+-  **UART Logging**: Publishes state changes via Serial Monitor
 
 ---
 
@@ -48,7 +48,7 @@ This project implements an **automotive indicator control system** using the ATm
    - Both for 1s → Activates Hazard mode
 3. Observe LED behavior and Serial logs
 
-▶️ [Live Wokwi Simulation](https://wokwi.com/projects/436893161708829697)
+▶ [Live Wokwi Simulation](https://wokwi.com/projects/436893161708829697)
 
 ---
 
@@ -59,11 +59,14 @@ This project implements an **automotive indicator control system** using the ATm
 [MODE] LEFT ON
 [MODE] RIGHT OFF
 [MODE] HAZARD ON
+💬 UART Log Output:  
+https://github.com/sajidk2002/indicator-control-moonrider/blob/main/UART_LOG.txt
+
 ```
 
 ---
 
-## 🧩 Future Scope
+##  Future Scope
 
 - BLE integration to trigger indicator logic via phone
 - Full Simulink model and auto code generation
@@ -72,7 +75,7 @@ This project implements an **automotive indicator control system** using the ATm
 
 ---
 
-## 📁 File Structure
+##  File Structure
 
 ```
 indicator-control-moonrider/
@@ -85,14 +88,14 @@ indicator-control-moonrider/
 
 ---
 
-## 🎥 Demo & Submission
+##  Demo & Submission
 
 - ✅ [Google Drive – Video Demonstration](https://drive.google.com/YOUR-VIDEO-LINK)
 - ✅ [Wokwi Simulation](https://wokwi.com/projects/436893161708829697)
 
 ---
 
-## 👤 Author
+##  Author
 
 **Sajid Muhammad**  
 B.Tech ECE 2024 | Embedded Systems Trainee  
